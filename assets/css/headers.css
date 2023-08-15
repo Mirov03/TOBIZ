@@ -1,0 +1,20 @@
+header .navbar .navbar-brand {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-right: 25%;
+}
+
+header .navbar .navbar-nav .nav-link {
+    font-family: var(--montserrat);
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+header .navbar .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}

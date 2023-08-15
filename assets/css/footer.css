@@ -1,0 +1,50 @@
+footer {
+    padding: 70px;
+}
+
+footer .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+
+footer .text .logo h1 {
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+footer .text .description p {
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-weight: 300;
+    height: 72px;
+    width: 400px;
+}
+
+footer .text .description p a {
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+footer .text .social {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+}
+
+footer .text .social h1 {
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer .text .social span {
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 300;
+}

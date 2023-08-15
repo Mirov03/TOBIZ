@@ -1,0 +1,60 @@
+section.info-1 {
+    margin-top: 7.3%;
+}
+
+section.info-1 .main-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+section.info-1 .main-text h1 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 58px;
+    color: var(--text-color);
+}
+
+section.info-1 .main-text p {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--text-color);
+    width: 70%;
+    text-align: center;
+    line-height: 120%;
+}
+
+section.info-1 .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 20px;
+}
+
+section.info-1 .buttons button {
+    width: 282px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+section.info-1 .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+section.info-1 .carousel .carousel-inner {
+    width: 1050px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+section.info-1 .carousel .carousel-inner img {
+    border-radius: 20px;
+}

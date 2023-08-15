@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+    --body-color: #151718;
+    --text-color: #ffffff;
+    --primary-color: #6163ff;
+    --button-dark-color: #202020;
+
+    --main-font: 'Roboto', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+
+    --tran-01: all 0.1s ease;
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+    --tran-06: all 0.6s ease;
+    --tran-07: all 0.7s ease;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body-color);
+}
+
+.primary-button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.primary-dark-button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background: var(--button-dark-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 18px;
+}

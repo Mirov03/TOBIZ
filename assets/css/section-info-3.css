@@ -1,0 +1,67 @@
+section.info-3 {
+    margin-top: 10%;
+}
+
+section.info-3 .text-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+section.info-3 .text-header h1 {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    font-size: 42px;
+}
+
+section.info-3 .text-header p {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+section.info-3 .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 2%;
+}
+
+section.info-3 .card-container .card-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+section.info-3 .card-container .card-item .card-image img {
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+section.info-3 .card-container .card-item .card-text {
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+section.info-3 .card-container .card-item .card-text h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+section.info-3 .card-container .card-item .card-text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+section.info-3 .card-container .card-item .card-text li {
+    font-size: 18px;
+    font-weight: 300;
+}
